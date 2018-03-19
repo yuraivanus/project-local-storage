@@ -1,0 +1,6 @@
+<div *ngFor = "let place of places" class = "item">
+  <app-place-item [place]="place">
+  </app-place-item>
+  <button (click) = "addToVisited(place)">Add to your places</button>
+  <button (click) = "addToWanted(place)">Add to wanted</button>
+</div>

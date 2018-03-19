@@ -1,0 +1,41 @@
+.home-page {
+    cursor: pointer;
+    margin-left: 9%;
+}
+
+.home-page:hover {
+    color: aliceblue;
+}
+
+.textdecor {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.favourite-page {
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.favourite-page:hover {
+    color: aliceblue;
+}
+
+.wish-page {
+    cursor: pointer;
+    margin-left: 11%;
+}
+
+.wish-page:hover {
+    color: aliceblue;
+}
+
+.menu-block {
+    font-size: 20px;
+    background: aqua;
+    display: flex;
+    padding: 2%;
+    opacity: 0.8;
+    z-index: 1;
+}
